@@ -2,7 +2,7 @@ import os
 import cv2
 import numpy as np
 import torch
-import skimage.metrics import structural_similarity as compare_ssim
+from skimage.metrics import structural_similarity as compare_ssim
 
 import network
 
